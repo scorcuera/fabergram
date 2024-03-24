@@ -12,14 +12,16 @@ export default function Home() {
   }
 
   return (
-    <main className="h-4/5 w-96 lg:w-4/6">
-      <h3>Let's create some ideas</h3>
-      <form action={FormAction}>
-        <input type="text" name="firstIdea" placeholder="Enter your idea" />
-        <input type="text" name="secondIdea" placeholder="Enter your idea" />
-        <button type="submit">Mix ideas !</button>
-      </form>
-      <h1>Fabergram</h1>
+    <main className="flex flex-col h-4/6 w-96 md:w-screen items-center justify-between">
+      <div className="container flex flex-col items-center">
+        <h3>Let's create some ideas</h3>
+        <form action={FormAction}>
+          <input type="text" name="firstIdea" placeholder="Enter your idea" />
+          <input type="text" name="secondIdea" placeholder="Enter your idea" />
+          <button type="submit">Mix ideas !</button>
+        </form>
+      </div>
+      <h1 className="self-center">Fabergram</h1>
     </main>
   );
 }
