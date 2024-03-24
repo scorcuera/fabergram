@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunito.className}>{children}</body>
-    </html>
+      <body className={`${nunito.className} h-screen flex items-center justify-center`} >{children}</body>
+    </html> 
   );
 }
