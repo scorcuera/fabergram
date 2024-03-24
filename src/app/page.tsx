@@ -21,7 +21,7 @@ export default function Home() {
           <button type="submit">Mix ideas !</button>
         </form>
       </div>
-      <h1 className="self-center">Fabergram</h1>
+      <h1 className="self-center text-3xl font-extralight opacity-40">Fabergram</h1>
     </main>
   );
 }
