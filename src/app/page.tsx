@@ -1,6 +1,7 @@
 'use client'
 
 import { createIdea } from "@/app/actions";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const FormAction = async (formData: any) => {
@@ -55,7 +56,7 @@ export default function Home() {
           <button type="submit" className="self-center inline-block rounded bg-indigo-600 px-7 py-2 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500">Mix ideas !</button>
         </form>
       </div>
-      <h1 className="self-center text-3xl font-extralight opacity-40">Fabergram</h1>
+      <motion.h1 initial={{opacity: 0}} animate={{opacity: 0.3}} transition={{delay: 0.5, duration: 1}} className="self-center text-3xl font-extralight">Fabergram</motion.h1>
     </main>
   );
 }
