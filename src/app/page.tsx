@@ -25,8 +25,9 @@ export default function Home() {
               <input
                 type="text"
                 name="firstIdea"
-                className="peer border-none bg-transparent placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 py-2"
+                className="peer border-none bg-transparent placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 px-2 py-2 w-full"
                 placeholder="first idea"
+                autoComplete="off"
               />
 
               <span
@@ -42,8 +43,9 @@ export default function Home() {
               <input
                 type="text"
                 name="secondIdea"
-                className="peer border-none bg-transparent placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 py-2"
+                className="peer border-none bg-transparent placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 px-2 py-2 w-full"
                 placeholder="second idea"
+                autoComplete="off"
               />
 
               <span
