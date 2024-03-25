@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <main className="flex flex-col h-4/6 w-96 md:w-screen items-center justify-between">
       <div className="container flex flex-col items-center">
-        <h3 className="text-5xl pb-20">Let's create some ideas</h3>
-        <form action={FormAction} className="w-full flex flex-col">
+        <motion.h3 initial={{opacity: 0}} animate={{opacity: 100}} transition={{duration: 0.2}} className="text-5xl pb-20">Let's create some ideas</motion.h3>
+        <motion.form initial={{x:-100, opacity: 0}} animate={{x:0, opacity: 100}} transition={{ duration: 0.5, delay: 0.5}} action={FormAction} className="w-full flex flex-col">
           <div className="container flex justify-around pb-10">
             <label
               htmlFor="firstIdea"
@@ -54,9 +54,9 @@ export default function Home() {
             </label>
           </div>
           <button type="submit" className="self-center inline-block rounded bg-indigo-600 px-7 py-2 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500">Mix ideas !</button>
-        </form>
+        </motion.form>
       </div>
-      <motion.h1 initial={{opacity: 0}} animate={{opacity: 0.3}} transition={{delay: 0.5, duration: 1}} className="self-center text-3xl font-extralight">Fabergram</motion.h1>
+      <motion.h1 initial={{opacity: 0}} animate={{opacity: 0.3}} transition={{delay: 1, duration: 1}} className="self-center text-3xl font-extralight">Fabergram</motion.h1>
     </main>
   );
 }
