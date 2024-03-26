@@ -1,7 +1,6 @@
 'use server'
 
 import OpenAI from "openai";
-console.log(process.env.OPENAI_API_SECRET)
 
 const openai = new OpenAI(
   { apiKey: process.env.OPENAI_API_SECRET }
