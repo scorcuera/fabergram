@@ -6,9 +6,7 @@ import Form from "../ui/form";
 
 export default function Home() {
   const FormAction = async (formData: any) => {
-    const firstIdea = formData.get("firstIdea");
-    const secondIdea = formData.get("secondIdea");
-    const data = await createIdea({ firstIdea, secondIdea });
+    const data = await createIdea(formData);
     console.log(data)
   }
 
