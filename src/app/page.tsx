@@ -15,7 +15,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col h-4/6 w-96 md:w-screen items-center justify-between">
+    <>
       <div className="container flex flex-col items-center">
         <motion.h3 initial={{ opacity: 0 }} animate={{ opacity: 100 }} transition={{ duration: 0.2 }} className="pb-20 text-3xl md:text-5xl">Let's create some ideas</motion.h3>
         <Form handleSubmit={FormAction} />
@@ -26,6 +26,6 @@ export default function Home() {
       <footer>
         <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 0.3 }} transition={{ delay: 1, duration: 1 }} className="self-center text-3xl font-extralight">Fabergram</motion.h1>
       </footer>
-    </main>
+    </>
   );
 }
