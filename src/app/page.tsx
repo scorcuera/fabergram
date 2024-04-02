@@ -4,7 +4,7 @@ import { useState } from "react";
 import { createIdea } from "@/app/lib/actions";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
-import Form from "../ui/form";
+import Form from "./ui/form";
 
 export default function Home() {
   const [idea, setIdea] = useState("");
