@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { nunito } from "./ui/fonts";
 
 import "./ui/globals.css";
-
-const nunito = Nunito({ 
-  weight: "200",
-  subsets: ["latin"] 
-});
 
 export const metadata: Metadata = {
   title: "Fabergram"
@@ -19,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunito.className} h-screen flex items-center justify-center`} >{children}</body>
+      <body className={`${nunito.className} antialiased h-screen flex items-center justify-center`} >{children}</body>
     </html> 
   );
 }
