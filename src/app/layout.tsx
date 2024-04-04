@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { nunito } from "./ui/fonts";
+import { nunito } from "@/app/ui/fonts";
 
-import "./ui/globals.css";
+import "@/app/ui/globals.css";
 
 export const metadata: Metadata = {
   title: "Fabergram"
