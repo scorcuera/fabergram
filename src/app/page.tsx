@@ -3,7 +3,7 @@
 import { createIdea } from "@/app/lib/actions";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import Form from "./ui/form";
+import Form from "@/app/ui/form";
 
 export default function Home() {
   const router = useRouter();
