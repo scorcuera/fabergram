@@ -7,7 +7,7 @@ export default function Idea() {
 
     return (
         <>
-            <p>
+            <p className="px-8">
                 <ReactTyped strings={[idea]} typeSpeed={50} />
             </p>
             <footer>
