@@ -2,6 +2,8 @@
 Fabergram
 </h1>
 
+![Image of Fabergram homepage](/public/readme_cover_image.png)
+
 
 ## Introduction
 
