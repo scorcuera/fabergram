@@ -46,3 +46,15 @@ Or
 ```shell
 npm run dev-fast
 ```
+
+## Tech Stack
+
+This project is built with a powerful set of technologies designed for building scalable, modern web applications. Here's a breakdown of the main technologies used:
+
+- Next.js: A React framework that enables functionality such as server-side rendering and generating static websites for React-based web applications. It provides the backbone of our project, facilitating fast, scalable, and SEO-friendly web applications.
+
+- TypeScript: A superset of JavaScript that adds static type definitions. TypeScript is used to ensure type safety and improve the development experience with better tooling support, leading to more robust and error-free code.
+
+- Tailwind CSS: A utility-first CSS framework for rapidly building custom designs. Tailwind CSS is utilized for styling our application, allowing us to maintain consistency and scalability in our design system with minimal effort.
+
+- OpenAI API: Provides access to powerful AI models such as GPT (Generative Pre-trained Transformer).
