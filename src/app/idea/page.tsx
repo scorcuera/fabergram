@@ -3,7 +3,7 @@
 import { ReactTyped } from "react-typed";
 
 export default function Idea() {
-    const idea = JSON.parse(localStorage.getItem("idea") as string);
+    const idea = JSON.parse(window.localStorage.getItem("idea") as string);
 
     return (
         <>
