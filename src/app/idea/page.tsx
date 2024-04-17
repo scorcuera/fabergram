@@ -1,9 +1,18 @@
 'use client'
 
+import { useEffect, useState } from "react";
 import { ReactTyped } from "react-typed";
 
 export default function Idea() {
-    const idea = JSON.parse(window.localStorage.getItem("idea") as string);
+    const [idea, setIdea] = useState("");
+
+    const getIdeaFromLocalStorage = () => {
+        return JSON.parse(window.localStorage.getItem("idea") as string);
+    }
+
+    useEffect(() => {
+        setIdea(getIdeaFromLocalStorage());
+    }, [])
 
     return (
         <>
