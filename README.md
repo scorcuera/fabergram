@@ -11,6 +11,8 @@ Fabergram helps you with your creativity process. If you are a creative person, 
 
 Fabergram might come in handy to unblock these kinds of moments. Or even if you just want to play with it and see what it has to say. Mix your ideas, shake them, and taste the resulting flavor. You might like it, or maybe not. But don't discard the brand new idea; you might find it useful again somewhere in the future...
 
+You can try it out here: https://fabergram.vercel.app/
+
 
 ## Features
 
